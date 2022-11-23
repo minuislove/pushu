@@ -9,12 +9,12 @@ public class Movement2D : MonoBehaviour
 
     private void Update()
     {
-        tranform.position += moveDirection * moveSpeed * Time.deltaTime;
+        transform.position += moveDirection * moveSpeed * Time.deltaTime;
     }
 
-    public void MoveTo(Vactor3 direction)
+    public void MoveTo(Vector3 direction)
     {
-        moveDirection = diraction;
+        moveDirection = direction;
     }
 }
 
